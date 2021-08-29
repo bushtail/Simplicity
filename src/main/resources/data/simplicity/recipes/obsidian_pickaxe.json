@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:shaped_crafting",
+  "pattern": [
+    "OOO",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "O": {
+      "tag": "simplicity:obsidian_shard"
+    },
+    "S": {
+      "tag": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "simplicity:obsidian_pickaxe"
+  }
+}

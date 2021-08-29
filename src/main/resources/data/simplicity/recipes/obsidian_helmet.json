@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:shaped_crafting",
+  "pattern": [
+    "OOO",
+    "O O",
+    "   "
+  ],
+  "key": {
+    "O": {
+      "tag": "simplicity:obsidian_shard"
+    }
+  },
+  "result": {
+    "item": "simplicity:obsidian_helmet"
+  }
+}

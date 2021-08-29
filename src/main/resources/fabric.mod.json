@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "simplicity",
+  "version": "${version}",
+  "name": "Simplicity",
+  "description": "Simple tools and armour, for a simple world.",
+  "authors": [
+    "enosich"
+  ],
+  "contact": {
+    "website": "https://evannosich.ca",
+    "repo": "https://github.com/enosich/Simplicity"
+  },
+  "license": "MIT",
+  "icon": "assets/simplicity/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "ca.evannosich.simplicity.client.SimplicityClient"
+    ],
+    "main": [
+      "ca.evannosich.simplicity.Simplicity"
+    ]
+  },
+  "mixins": [
+    "simplicity.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}

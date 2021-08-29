@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:shaped_crafting",
+  "pattern": [
+    " E ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "E": {
+      "tag": "minecraft:emerald"
+    },
+    "S": {
+      "tag": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "simplicity:emerald_shovel"
+  }
+}
