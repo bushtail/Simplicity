@@ -38,6 +38,8 @@ public class SimplicityRegistry {
     public static final Item OBSIDIAN_SHARD = new ObsidianShard(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64));
 
     public static void register() {
+        // Register new material item.
+        Registry.register(Registry.ITEM, new Identifier("simplicity", "obsidian_shard"), OBSIDIAN_SHARD);
         // Register ItemGroup.COMBAT items.
         Registry.register(Registry.ITEM, new Identifier("simplicity", "emerald_helmet"), EMERALD_HELMET);
         Registry.register(Registry.ITEM, new Identifier("simplicity", "emerald_chestplate"), EMERALD_CHESTPLATE);
@@ -61,6 +63,6 @@ public class SimplicityRegistry {
         // Register ItemGroup.MISC items.
         Registry.register(Registry.ITEM, new Identifier("simplicity", "emerald_horse_armor"), EMERALD_HORSE_ARMOR);
         Registry.register(Registry.ITEM, new Identifier("simplicity", "obsidian_horse_armor"), OBSIDIAN_HORSE_ARMOR);
-        Registry.register(Registry.ITEM, new Identifier("simplicity", "obsidian_shard"), OBSIDIAN_SHARD);
+
     }
 }
