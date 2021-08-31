@@ -14,12 +14,12 @@ public class EmeraldToolMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 0;
+        return 8.0F;
     }
 
     @Override
     public float getAttackDamage() {
-        return 0;
+        return 3.0F;
     }
 
     @Override

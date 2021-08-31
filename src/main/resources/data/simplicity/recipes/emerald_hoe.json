@@ -7,10 +7,10 @@
   ],
   "key": {
     "E": {
-      "tag": "minecraft:emerald"
+      "item": "minecraft:emerald"
     },
     "S": {
-      "tag": "minecraft:stick"
+      "item": "minecraft:stick"
     }
   },
   "result": {

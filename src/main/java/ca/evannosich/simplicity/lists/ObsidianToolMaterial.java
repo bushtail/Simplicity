@@ -1,5 +1,7 @@
 package ca.evannosich.simplicity.lists;
 
+import ca.evannosich.simplicity.item.miscellaneous.ObsidianShardItem;
+import ca.evannosich.simplicity.registry.SimplicityRegistry;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
@@ -8,31 +10,31 @@ public class ObsidianToolMaterial implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 0;
+        return 3122;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 0;
+        return 8.0F;
     }
 
     @Override
     public float getAttackDamage() {
-        return 0;
+        return 3.0F;
     }
 
     @Override
     public int getMiningLevel() {
-        return 0;
+        return 3;
     }
 
     @Override
     public int getEnchantability() {
-        return 0;
+        return 10;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;
+        return Ingredient.ofItems(SimplicityRegistry.OBSIDIAN_SHARD);
     }
 }

@@ -2,9 +2,9 @@ package ca.evannosich.simplicity.item.miscellaneous;
 
 import net.minecraft.item.Item;
 
-public class ObsidianShard extends Item {
+public class ObsidianShardItem extends Item {
 
-    public ObsidianShard(Settings settings) {
+    public ObsidianShardItem(Settings settings) {
         super(settings);
     }
 }

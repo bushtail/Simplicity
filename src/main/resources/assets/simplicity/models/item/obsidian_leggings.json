@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "simplicity:item/obsidian_leggings"
+  }
+}

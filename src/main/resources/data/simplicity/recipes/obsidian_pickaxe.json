@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "tag": "simplicity:obsidian_shard"
+      "item": "simplicity:obsidian_shard"
     },
     "S": {
-      "tag": "minecraft:stick"
+      "item": "minecraft:stick"
     }
   },
   "result": {
