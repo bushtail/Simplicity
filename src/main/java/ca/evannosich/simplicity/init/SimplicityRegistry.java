@@ -1,4 +1,4 @@
-package ca.evannosich.simplicity.registry;
+package ca.evannosich.simplicity.init;
 
 import ca.evannosich.simplicity.item.combat.*;
 import ca.evannosich.simplicity.item.miscellaneous.*;
@@ -32,8 +32,8 @@ public class SimplicityRegistry {
     public static final ToolItem OBSIDIAN_AXE = new ObsidianAxeItem(ObsidianToolMaterial.INSTANCE, 8F, -3F, new FabricItemSettings().group(ItemGroup.TOOLS));
     public static final ToolItem OBSIDIAN_HOE = new ObsidianHoeItem(ObsidianToolMaterial.INSTANCE, 0, 0F, new FabricItemSettings().group(ItemGroup.TOOLS));
     // Create ItemGroup.MISC items.
-    public static final HorseArmorItem EMERALD_HORSE_ARMOR = new EmeraldHorseArmorItem(11, "emerald_horse_armor", new FabricItemSettings().group(ItemGroup.MISC));
-    public static final HorseArmorItem OBSIDIAN_HORSE_ARMOR = new ObsidianHorseArmorItem(11, "obsidian_horse_armor", new FabricItemSettings().group(ItemGroup.MISC));
+    public static final HorseArmorItem HORSE_ARMOR_EMERALD = new EmeraldHorseArmorItem(11, "emerald", new FabricItemSettings().group(ItemGroup.MISC));
+    public static final HorseArmorItem HORSE_ARMOR_OBSIDIAN = new ObsidianHorseArmorItem(11, "obsidian", new FabricItemSettings().group(ItemGroup.MISC));
     public static final Item OBSIDIAN_SHARD = new ObsidianShardItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64));
 
     public static void register() {
@@ -58,8 +58,8 @@ public class SimplicityRegistry {
         Registry.register(Registry.ITEM, new Identifier("simplicity", "obsidian_axe"), OBSIDIAN_AXE);
         Registry.register(Registry.ITEM, new Identifier("simplicity", "obsidian_hoe"), OBSIDIAN_HOE);
         // Register ItemGroup.MISC items.
-        Registry.register(Registry.ITEM, new Identifier("simplicity", "emerald_horse_armor"), EMERALD_HORSE_ARMOR);
-        Registry.register(Registry.ITEM, new Identifier("simplicity", "obsidian_horse_armor"), OBSIDIAN_HORSE_ARMOR);
+        Registry.register(Registry.ITEM, new Identifier("simplicity", "emerald_horse_armor"), HORSE_ARMOR_EMERALD);
+        Registry.register(Registry.ITEM, new Identifier("simplicity", "obsidian_horse_armor"), HORSE_ARMOR_OBSIDIAN);
         Registry.register(Registry.ITEM, new Identifier("simplicity", "obsidian_shard"), OBSIDIAN_SHARD);
     }
 }

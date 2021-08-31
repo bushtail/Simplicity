@@ -1,15 +1,15 @@
 package ca.evannosich.simplicity.lists;
 
-import ca.evannosich.simplicity.init.SimplicityRegistry;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ObsidianToolMaterial implements ToolMaterial {
-    public static final ObsidianToolMaterial INSTANCE = new ObsidianToolMaterial();
+public class EmeraldToolMaterial implements ToolMaterial {
+    public static final EmeraldToolMaterial INSTANCE = new EmeraldToolMaterial();
 
     @Override
     public int getDurability() {
-        return 3122;
+        return 1561;
     }
 
     @Override
@@ -29,11 +29,11 @@ public class ObsidianToolMaterial implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 10;
+        return 25;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(SimplicityRegistry.OBSIDIAN_SHARD);
+        return Ingredient.ofItems(Items.EMERALD);
     }
 }
