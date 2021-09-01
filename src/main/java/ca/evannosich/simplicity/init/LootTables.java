@@ -44,7 +44,7 @@ public class LootTables {
         LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
             if(INJECT_TABLE.contains(id)) {
                 FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-                        .rolls(BinomialLootTableRange.create(1, 0.077f))
+                        .rolls(BinomialLootTableRange.create(1, 0.025f))
                         .with(ItemEntry.builder(SimplicityRegistry.HORSE_ARMOR_OBSIDIAN))
                         .with(ItemEntry.builder(SimplicityRegistry.HORSE_ARMOR_EMERALD));
                 supplier.pool(poolBuilder);
