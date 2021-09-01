@@ -7,7 +7,7 @@ import net.minecraft.util.Identifier;
 
 public class ObsidianHorseArmorItem extends HorseArmorItem {
     private final int bonus;
-    private String entityTexture;
+    private final String entityTexture;
 
     public ObsidianHorseArmorItem(int bonus, String name, Settings settings) {
         super(bonus, name, settings);
