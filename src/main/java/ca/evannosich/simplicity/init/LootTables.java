@@ -3,6 +3,7 @@ package ca.evannosich.simplicity.init;
 
 import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
 import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
+import net.minecraft.block.Blocks;
 import net.minecraft.loot.BinomialLootTableRange;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.util.Identifier;
