@@ -32,8 +32,8 @@ public class SimplicityRegistry {
     public static final ToolItem OBSIDIAN_AXE = new ObsidianAxeItem(ObsidianToolMaterial.INSTANCE, 8F, -3F, new FabricItemSettings().group(ItemGroup.TOOLS));
     public static final ToolItem OBSIDIAN_HOE = new ObsidianHoeItem(ObsidianToolMaterial.INSTANCE, 0, 0F, new FabricItemSettings().group(ItemGroup.TOOLS));
     // Create ItemGroup.MISC items.
-    public static final HorseArmorItem HORSE_ARMOR_EMERALD = new EmeraldHorseArmorItem(11, "emerald", new FabricItemSettings().group(ItemGroup.MISC));
-    public static final HorseArmorItem HORSE_ARMOR_OBSIDIAN = new ObsidianHorseArmorItem(11, "obsidian", new FabricItemSettings().group(ItemGroup.MISC));
+    public static final HorseArmorItem HORSE_ARMOR_EMERALD = new EmeraldHorseArmorItem(11, "emerald", new FabricItemSettings().group(ItemGroup.MISC).maxCount(1));
+    public static final HorseArmorItem HORSE_ARMOR_OBSIDIAN = new ObsidianHorseArmorItem(11, "obsidian", new FabricItemSettings().group(ItemGroup.MISC).maxCount(1));
     public static final Item OBSIDIAN_SHARD = new ObsidianShardItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64));
 
     public static void register() {
